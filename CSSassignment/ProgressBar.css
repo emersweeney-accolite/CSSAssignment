@@ -1,0 +1,33 @@
+.bar {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid violet;
+    border-radius: 13px;
+    padding: 3px;
+  }
+  
+.bar>div {
+    background-color: violet;
+    width: 0%;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.function{
+    width: 15%;
+    margin: auto;
+    font-family: inherit;
+}
+
+@keyframes mymove{
+    from{
+        top:0px;
+        background-color: red;
+    }
+    50%{
+        background-color: pink;
+    }
+    to{
+        top: 50px;
+        background-color: yellow;
+    }
+}

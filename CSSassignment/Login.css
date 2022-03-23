@@ -1,0 +1,29 @@
+header {
+    padding: 10px;
+    text-align: center;
+    background: #ffffff;
+    color: rgb(216, 191, 216);
+    font-size:x-large;
+}
+
+button{
+    background-color: white;
+    color: rgb(216, 191, 216);
+    border: 1px solid rgb(216, 191, 216);
+}
+
+.centre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: white !important;
+    color: rgb(216, 191, 216);
+    border: 1.5px solid rgb(216, 191, 216);
+}
+
+.form-check-input{
+    color: rgb(216, 191, 216);
+}

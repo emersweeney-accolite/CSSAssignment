@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+.page{
+    font-family: 'Pangolin', cursive;
+}
+header {
+    padding: 50px;
+    text-align: center;
+    background: #ffffff;
+    color: rgb(216, 191, 216);
+    font-size:x-large;
+}
+  
+.header h1 {
+    font-size: 40px;
+}
+
+.navbar {
+    overflow: hidden;
+    background: linear-gradient(to right, rgb(195, 177, 225),rgb(204, 204, 255), rgb(216, 191, 216));
+}
+  
+.navbar a {
+    float: left; 
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: large;
+}
+  
+.navbar a:hover {
+    background-color: rgb(216, 191, 216);
+    color: rgb(255, 255, 255);
+ }
+
+*{
+    box-sizing: border-box;
+}
+  
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side {
+    flex: 5%;
+    color: white;
+    padding: 20px;
+    background: linear-gradient(rgb(195, 177, 225),rgb(204, 204, 255), rgb(216, 191, 216));
+}
+
+#side2{
+    background: linear-gradient(rgb(216, 191, 216),rgb(204, 204, 255), rgb(195, 177, 225));
+}
+  
+.main {
+    flex: 90%; 
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+.pastel{
+    border: 3px solid rgb(195, 177, 225);
+    padding: 5px;
+    border-radius: 6px;
+}
+
+#pastel{
+    color: rgb(195, 177, 225);
+    font-size: xx-large;
+}
+
+.periwinkle{
+    border: 3px solid rgb(204, 204, 255);
+    padding: 5px;
+    border-radius: 6px;
+}
+
+#periwinkle{
+    color: rgb(204, 204, 255);
+    font-size: xx-large;
+}
+
+.thistle{
+    border: 3px solid rgb(216, 191, 216);
+    padding: 5px;
+    border-radius: 6px;
+}
+
+#thistle{
+    color: rgb(216, 191, 216);
+    font-size: xx-large;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(to right, rgb(216, 191, 216), rgb(204, 204, 255), rgb(195, 177, 225));
+    color: white;
+    font-style: italic;
+    font-size: large;
+}
